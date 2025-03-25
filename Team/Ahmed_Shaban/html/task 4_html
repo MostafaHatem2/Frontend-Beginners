@@ -1,6 +1,6 @@
-<!-- 
-    1_ لا
-    2_ نعم
-    3_ لا
-    4_ لا
-    -->
+<head>
+    <meta charset="UTF-8"><!--يحدد طريقة قراءة الأحرف وعرض النصوص في المتصفح-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--يُستخدم لجعل الموقع متجاوبًا مع جميع الشاشات، خاصة في الأجهزة المحمولة-->
+    <meta name="keywords" content="متجر, إلكترونيات, هواتف, لابتوب, شراء"><!--يساعد محركات البحث على فهم محتوى الصفحة من خلال كلمات مفتاحية متعلقة بها-->
+    <meta name="discription" content=" This Is Description For My First Page"><!--يتم استخدامه لتحسين تحسين محركات البحث-->
+</head>
