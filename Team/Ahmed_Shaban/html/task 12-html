@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+</head>
+<body>
+
+    <!-- العنوان الرئيسي -->
+    <h1>My Page</h1>
+
+    <!-- الفقرة الأولى -->
+    <p>This Is My Page</p>
+
+    <!-- الفقرة الثانية -->
+    <p>This Is My First Work</p>
+
+    <!-- العنوان الثانوي -->
+    <h2>Section One</h2>
+
+    <!-- الفقرة الثالثة -->
+    <p>This Is Section One</p>
+
+</body>
+</html>
