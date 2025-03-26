@@ -18,5 +18,6 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
 2. [Abo Hadhod Basics Level 1](https://www.youtube.com/watch?v=LWCBg5tb64I&list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj)
-
+3. [Important PDF books](https://books.goalkicker.com/)
+4. [Elzero cmder Terminal & Command Line](https://www.youtube.com/watch?v=JVs2Ywy7wGQ&list=PLDoPjvoNmBAxzNO8ixW83Sf8FnLy_MkUT)
 ### Best wishes, great **Dreamers** Team!
