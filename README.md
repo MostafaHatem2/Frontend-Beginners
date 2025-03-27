@@ -1,6 +1,12 @@
 # Frontend-Beginners
 This is to solve daily tasks and to make the group accustomed to the teams and how to deal with a team.
 
+## 🚀 Technology Progress:
+
+### 📌 Course Completion: 20%
+1. 🟡 **HTML** (In Progress) 37 Assignments
+🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜  **40% Complete**
+
 ## Task List:
 ## Task1
 | No | Task | Deadline | Duration | Link |
