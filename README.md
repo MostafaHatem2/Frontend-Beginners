@@ -29,7 +29,7 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 ## Task4
 | No | Task | Deadline | Duration | Link |
 |----|------|----------|----------|------|
-| 1  | HTML Elzero assignment from 19 to 23 | 28/3/2025 | 1 day | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
+| 1  | HTML Elzero assignment from 19 to 23 | 29/3/2025 | 1 day | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
 ### On Friday, we will not have any tasks. All that is required is that you understand the past well, and God willing, we will discuss it.
 
 ## References:
