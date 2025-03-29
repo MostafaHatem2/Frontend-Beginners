@@ -32,6 +32,12 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 | 1  | HTML Elzero assignment from 19 to 23 | 29/3/2025 | 1 day | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
 ### On Friday, we will not have any tasks. All that is required is that you understand the past well, and God willing, we will discuss it.
 
+## Task5
+| No | Task | Deadline | Duration | Link |
+|----|------|----------|----------|------|
+| 1  | HTML Elzero assignment from 24 to 27 | 30/3/2025 | Until further notice (agreement). | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
+### Happy New Year, God willing. This is the last task until after Eid or after the midday break. We will agree and see what we will do. People should understand what we have taken and solved its tasks. Happy Eid al-Fitr.
+
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
 2. [Abo Hadhod Basics Level 1](https://www.youtube.com/watch?v=LWCBg5tb64I&list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj)
