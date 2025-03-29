@@ -36,7 +36,7 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 | No | Task | Deadline | Duration | Link |
 |----|------|----------|----------|------|
 | 1  | HTML Elzero assignment from 24 to 27 | 30/3/2025 | Until further notice (agreement). | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
-### Happy New Year, God willing. This is the last task until after Eid or after the midday break. We will agree and see what we will do. People should understand what we have taken and solved its tasks. Happy Eid al-Fitr.
+### Happy New Year, God willing. This is our last assignment until after Eid or the mid-term break. We'll agree and see what we'll do. People need to understand what we've taken and solved. Happy Eid al-Fitr.
 
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
