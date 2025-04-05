@@ -43,4 +43,5 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 2. [Abo Hadhod Basics Level 1](https://www.youtube.com/watch?v=LWCBg5tb64I&list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj)
 3. [Important PDF books](https://books.goalkicker.com/)
 4. [Elzero cmder Terminal & Command Line](https://www.youtube.com/watch?v=JVs2Ywy7wGQ&list=PLDoPjvoNmBAxzNO8ixW83Sf8FnLy_MkUT)
+5. [DSA & Programming fundamintals](https://github.com/m7mdraafat/Basics-Computer-Science?sfnsn=scwspwa)
 ### Best wishes, great **Dreamers** Team!

@@ -2,3 +2,10 @@ Finished watching :
 https://www.youtube.com/watch?v=aK46A6jQ1RM&list=PLDoPjvoNmBAx8xKvAXpb6f0Urj98Xo7zg
 
 from 1 to 10
+
+* git
+    - git fetch origin
+    - git merge origin/main
+
+- last task link:
+https://elzero.org/html-assignments-lesson-from-19-to-23/
