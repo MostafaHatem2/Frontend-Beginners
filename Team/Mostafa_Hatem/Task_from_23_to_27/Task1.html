@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Form</title>
+</head>
+<body>
+
+  <form action="test.py" method="POST">
+
+    <div>
+    <label for="username">Username</label><br>
+    <input type="text" id="username" name="username" required placeholder="Enter your username">
+    <h5>Choose a unique name to identify yourself.</h5>
+    </div>
+    <hr>
+
+    <!-- Password -->
+    <label for="password">Password</label><br>
+    <input type="password" required id="password" name="password" placeholder="Enter a strong password">
+    <h5>Use letters, numbers, and symbols to make your password stronger.</h5>
+    <hr>
+
+    <div>
+    <label for="mobile">Mobile</label><br>
+    <input type="tel" id="mobile" name="mobile"
+           pattern="^\+?\d{3,4}\s?\(\d{3}\)\s?\d{3}$"
+           placeholder="+20100 (234) 123">
+    <h5>Enter your number like this: +20100 (234) 123</h5>
+    <hr>
+    </div>
+
+    <div>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+    <h5>Make sure to write a valid and active email address.</h5>
+    </div>
+    <hr>
+
+    <div>
+    <label for="subject">Subject</label><br>
+    <input type="text" id="subject" name="subject" placeholder="Enter a subject">
+    <h5>Write a short title or topic you want to discuss.</h5>
+    <hr>
+    </div>
+
+    <div>
+    <input type="hidden" name="form_id" value="987654">
+    </div>
+
+    <div>
+    <input type="reset" value="Empty Form">
+    <input type="submit" value="Send Data">
+    </div>
+
+  </form>
+
+</body>
+</html>
