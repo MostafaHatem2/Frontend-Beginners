@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Custom Form</title>
+    <meta charset="UTF-8">
+
+    <title>Task1 and Task2</title>
 </head>
 <body>
+    <form action="test.py" method="post">
+        <div>
+            <label for="Username">Username:</label><br>
+            <input type="text" id="Username" name="Username" required placeholder="Please Write UserName"><br>
+            <small>Please Write UserName</small>
+            <hr>
+        </div>
+        <div>
+            <label for="Password">Password:</label><br>
+            <input type="password" id="Password" name="Password" placeholder="Please Write Password"><br>
+            <small>Please Write Password</small>
+            <hr>
+        </div>
+        <div>
+            <label for="MOBILE">MOBILE:</label><br>
+            <input type="tel" id="MOBILE" name="MOBILE" 
+            pattern="[0-9]{11}" placeholder="Please Write Mobile Number Such = 01096708977"><br>
+            <small>Please Write Mobile Number Such = "01096708977"</small>
+            <hr>
+        </div>
+        <div>
+            <label for="EMAIL">EMAIL:</label><br>
+            <input type="email" id="EMAIL" name="EMAIL" required placeholder="Enter your email address"><br>
+            <small>Please Write Email</small>
+            <hr>
+        </div>
+        <div>
+            <label for="Subject">Subject:</label><br>
+            <input type="text" id="Subject" name="Subject" placeholder="Please Write Subjects"><br>
+            <small>Please Write Subject</small>
+            <hr>
+        </div>
+        <div>
+            <input type="hidden" id="hiiden" name="hiiden" value="hiiden"><br>
+        </div>
+        <hr>
+        <div>
+            <input type="reset" value="Empty Form">
+            <input type="submit" value="Send Data">
+        </div>
+    </form>
+    <hr><br>
 
-  <form action="test.py" method="POST">
-
-    <div>
-    <label for="username">Username</label><br>
-    <input type="text" id="username" name="username" required placeholder="Enter your username">
-    <h5>Choose a unique name to identify yourself.</h5>
-    </div>
-    <hr>
-
-    <!-- Password -->
-    <label for="password">Password</label><br>
-    <input type="password" required id="password" name="password" placeholder="Enter a strong password">
-    <h5>Use letters, numbers, and symbols to make your password stronger.</h5>
-    <hr>
-
-    <div>
-    <label for="mobile">Mobile</label><br>
-    <input type="tel" id="mobile" name="mobile"
-           pattern="^[0-9]{11}$"
-           placeholder="+20100 (234) 123">
-    <h5>Enter your number like this: +20100 (234) 123</h5>
-      </div>
-
-    <div>
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" required placeholder="Enter your email address">
-    <h5>Make sure to write a valid and active email address.</h5>
-    </div>
-    <hr>
-
-    <div>
-    <label for="subject">Subject</label><br>
-    <input type="text" id="subject" name="subject" placeholder="Enter a subject">
-    <h5>Write a short title or topic you want to discuss.</h5>
-    <hr>
-    </div>
-
-    <div>
-    <input type="hidden" name="form_id" value="987654">
-    </div>
-
-    <div>
-    <input type="reset" value="Empty Form">
-    <input type="submit" value="Send Data">
-    </div>
-
-  </form>
+    <input type="range" name="range" min="200" max="600" value="400">
+    <br>
 
 </body>
 </html>
