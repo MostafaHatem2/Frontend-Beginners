@@ -35,7 +35,7 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 ## Task5
 | No | Task | Deadline | Duration | Link |
 |----|------|----------|----------|------|
-| 1  | HTML Elzero assignment from 24 to 27 |  Until further notice (agreement) | Until further notice (agreement). | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
+| 1  | HTML Elzero assignment from 24 to 27 | 20/4/2025 | 2 day | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
 ### Happy New Year, God willing. This is our last assignment until after Eid or the mid-term break. We'll agree and see what we'll do. People need to understand what we've taken and solved. Happy Eid al-Fitr.
 
 ## References:
