@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.py" submit="post">
+        <label for="name">UserName</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <hr>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <hr>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <hr>
+        <br><br>
+        <label for="name">Mobile</label>
+        <input type="tel" name="tel" id="tel" pattern="\+[0-9]{1,4}\s?\([0-9]{3}\)\s?[0-9]{3}" placeholder="+20100 (234) 123">
+        <hr>
+        <br><br>
+        <label for="name">Subject</label>
+        <hr>
+        <textarea name="Subject" id="Subject" placeholder="Enter your Subject"></textarea>
+        <br><br>
+        <input type="hidden" name="name" id="nubmer" placeholder="Enter your name">
+        <hr>
+        <br><br>
+        <input type="reset" value="Empty Form">
+        <br><br>
+        <input type="submit" value="Send Data">
+    </form>
+</body>
+</html>

@@ -3,9 +3,9 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 
 ## 🚀 Technology Progress:
 
-### 📌 Course Completion: 40%
+### 📌 Course Completion: 73%
 1. 🟡 **HTML** (In Progress) 37 Assignments
-🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ 
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 
 
 ## Task List:
 ## Task1
@@ -35,8 +35,13 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 ## Task5
 | No | Task | Deadline | Duration | Link |
 |----|------|----------|----------|------|
-| 1  | HTML Elzero assignment from 24 to 27 |  Until further notice (agreement) | Until further notice (agreement). | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
+| 1  | HTML Elzero assignment from 24 to 27 | 20/4/2025 | 2 days | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
 ### Happy New Year, God willing. This is our last assignment until after Eid or the mid-term break. We'll agree and see what we'll do. People need to understand what we've taken and solved. Happy Eid al-Fitr.
+
+## Task6
+| No | Task | Deadline | Duration | Link |
+|----|------|----------|----------|------|
+| 1  | HTML Elzero assignment from 28 to 30 | 22/4/2025 | 2 days | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
 
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)

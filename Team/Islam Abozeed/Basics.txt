@@ -8,4 +8,4 @@ from 1 to 10
     - git merge origin/main
 
 - last task link:
-https://elzero.org/html-assignments-lesson-from-19-to-23/
+https://elzero.org/html-assignments-lesson-from-24-to-27/
