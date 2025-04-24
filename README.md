@@ -48,6 +48,11 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 |----|------|----------|----------|------|
 | 1  | HTML Elzero assignment from 31 to 34 | 24/4/2025 | 2 days | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
 
+## Task8 & Final
+| No | Task | Deadline | Duration | Link |
+|----|------|----------|----------|------|
+| 1  | HTML Elzero assignment from 35 to 37 | 26/4/2025 | 2 days | [Elzero HTML Study Plan](https://elzero.org/study/html-2021-study-plan/) |
+
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
 2. [Abo Hadhod Basics Level 1](https://www.youtube.com/watch?v=LWCBg5tb64I&list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj)
