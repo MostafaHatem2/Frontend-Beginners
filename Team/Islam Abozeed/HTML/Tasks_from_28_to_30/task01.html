@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="post">
+    <div class="">
+      <label for="username">username</label>
+      <input type="text" id="username" name="username" required minlength="5" maxlength="20">
+    </div>
+    <div class="">
+      <label for="email">email</label>
+      <input type="email" id="email" name="email" value="o@o.com" disabled>
+    </div>
+    <input type="hidden" id="token" name="token" value="b92f1fc2fce391ad7af633723afd3055" required>
+    <div>
+      <input type="reset">Reset</inp>
+      <input type="submit">Send</input>
+  </div>
+
+  </form>
+</body>
+</html>

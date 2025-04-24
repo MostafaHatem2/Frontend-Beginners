@@ -9,3 +9,9 @@ from 1 to 10
 
 - last task link:
 https://elzero.org/html-assignments-lesson-from-24-to-27/
+
+
+pull settings in VSC to connect your account in github
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
