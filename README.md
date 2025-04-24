@@ -3,9 +3,9 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 
 ## 🚀 Technology Progress:
 
-### 📌 Course Completion: 73%
-1. 🟡 **HTML** (In Progress) 37 Assignments
-🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 
+### 📌 Course Completion: 100%
+1. 🟢 **HTML** (Finished) 2025-4-26 => 37 Assignments
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
 ## Task List:
 ## Task1
