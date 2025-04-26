@@ -1,0 +1,19 @@
+/* Any Element With Class Title */
+.title {
+    /* This is if we want to style all elements with class "title" */
+}
+
+
+#nav {
+    /* This is if we want to style the element with ID "nav" */
+}
+
+
+div {
+    /* This is if we want to style all <div> elements in the file */
+}
+
+
+h2 {
+    /* This is if we want to style all <h2> elements in the file */
+}
