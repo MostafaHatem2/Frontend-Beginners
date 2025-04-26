@@ -55,24 +55,37 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 
 ## Final Task For HTML
 
-###Project Objective:
-###Create an interactive educational webpage using only HTML, explaining the basics of the language in a simple and organized manner.
-###Requirements:
-###Develop a home page structure that includes:
-###A title and description introducing the project.
-###An internal table of contents for navigating between sections.
-###A data entry form (name, email, password).
-###A table explaining the most important basic tags in HTML.
-###A practical example of HTML structure.
-###Embed external content using an iframe.
-###A button to navigate to a supplementary page (Page 2).
-###Supplementary Page (Page2.html):
-###A simple page that explains an HTML concept using the interactive <details> element.
-###Notes:
-###Commit to proper tagging and HTML5 structure.
-###Focus on simplicity and organization.
-###You are free to enhance the layout, add visual enhancements, or add creative interaction.
+Project Objective:
+Create an interactive educational webpage using only HTML, explaining the basics of the language in a simple and organized manner.
 
+Requirements:
+
+Develop a home page structure that includes:
+
+A title and description introducing the project.
+
+An internal table of contents for navigating between sections.
+
+A data entry form (name, email, password).
+
+A table explaining the most important basic tags in HTML.
+
+A practical example of HTML structure.
+
+Embed external content using an iframe.
+
+A button to navigate to a supplementary page (Page 2).
+
+Supplementary Page (Page2.html):
+A simple page that explains an HTML concept using the interactive <details> element.
+
+Notes:
+
+Commit to proper tagging and HTML5 structure.
+
+Focus on simplicity and organization.
+
+You are free to enhance the layout, add visual enhancements, or add creative interaction.
 
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
