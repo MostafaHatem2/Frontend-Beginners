@@ -1,0 +1,17 @@
+div {
+    width: 500px;
+    background-color: blueviolet;
+    background-color: #8A2BE2;
+    background-color: hsl(271°, 76%, 53%);
+    background-color: rgb(141, 43, 226);
+    align-items: center;
+    padding: 20px;
+}
+
+.assign-1-shape-2 {
+    opacity: 0.5;
+}
+
+.assign-1-shape-3 {
+    opacity: 0.1;
+}
