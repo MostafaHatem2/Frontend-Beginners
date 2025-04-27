@@ -87,6 +87,12 @@ Focus on simplicity and organization.
 
 You are free to enhance the layout, add visual enhancements, or add creative interaction.
 
+
+## Final Project
+| No | Task | Deadline | Duration |
+|----|------|----------|----------|
+| 1  | HTML Project | 3/5/2025 | Week|
+
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
 2. [Abo Hadhod Basics Level 1](https://www.youtube.com/watch?v=LWCBg5tb64I&list=PL3X--QIIK-OHgMV2yBz3GLfM5d_5BxOSj)
