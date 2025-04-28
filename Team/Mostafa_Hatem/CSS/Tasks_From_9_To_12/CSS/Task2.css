@@ -1,0 +1,18 @@
+div {
+    width: 400px;
+    background-color: #EEE;
+    padding: 15px;
+    outline: 7px solid #EEE;
+}
+
+.element-element-1 {
+    border-left: 5px red solid;
+}
+
+.element-element-2 {
+    visibility: hidden;
+}
+
+.element-element-3 {
+    border-left: 5px green solid;
+}
