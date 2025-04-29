@@ -1,0 +1,9 @@
+p {
+    max-width: 400px;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px auto;
+}
+.title4 {
+    overflow: hidden;  
+}

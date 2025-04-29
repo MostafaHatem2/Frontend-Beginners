@@ -1,15 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/Task2.css">
-    <title>Task2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أساسيات HTML - وثيقة تعليمية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        code {
+            background-color: #2d2d2d;
+            color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #2d2d2d;
+            color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            direction: ltr;
+            text-align: left;
+        }
+        details {
+            margin: 15px 0;
+        }
+        summary {
+            cursor: pointer;
+            color: #0066cc;
+        }
+    </style>
 </head>
 <body>
-    
-    <div class="element-element-1">This Is Important Note</div>
-    <div class="element-element-2">This Is Important Note</div>
-    <div class="element-element-3">This Is Important Note</div>
+    <h1>أساسيات HTML: المفهوم، الأهمية، ولماذا نتعلمها</h1>
+
+    <h2>ما هو HTML؟</h2>
+    <p>HTML تعني <strong>HyperText Markup Language</strong>، وهي لغة الترميز الأساسية المستخدمة لإنشاء صفحات الويب. بمعنى آخر، HTML هي "الهيكل الأساسي" لأي صفحة ويب تشوفها على الإنترنت. بتُستخدم عشان تحدد العناصر اللي المتصفح هيعرضها، زي النصوص، الصور، الروابط، والجداول. فكر فيها كأنها العظم بتاع صفحة الويب، وبعدين بييجي CSS (للتنسيق) وJavaScript (للتفاعل) يكملوا الباقي.</p>
+
+    <h2>لماذا نتعلم HTML؟</h2>
+    <ol>
+        <li><strong>البداية لفهم الويب</strong>: لو عايز تشتغل في مجال تطوير الويب أو حتى تفهم إزاي المواقع بتتعمل، HTML هي أول خطوة لازم تتعلمها. من غيرها، مش هتقدر تبني أي صفحة ويب.</li>
+        <li><strong>مهارة أساسية لكل المبرمجين</strong>: حتى لو مش هتشتغل مطور ويب، معرفة HTML بتساعدك تفهم هيكلة المحتوى الرقمي، وده مفيد في مجالات زي تصميم الواجهات أو حتى إدارة المحتوى.</li>
+        <li><strong>تحكم أكبر في المحتوى</strong>: لو بتدير مدونة أو موقع، معرفة HTML هتخليك تقدر تعدل في الأكواد بنفسك من غير ما تحتاج حد تاني.</li>
+        <li><strong>بوابة لتعلم تقنيات أكثر تقدمًا</strong>: HTML هي الأساس اللي بيتبني عليه CSS وJavaScript، فلو عايز تتعلم تصميم مواقع تفاعلية، لازم تبدأ من هنا.</li>
+    </ol>
+
+    <h2>مفهوم HTML ببساطة</h2>
+    <p>HTML بتستخدم <strong>الوسوم (Tags)</strong> عشان تحدد العناصر في الصفحة. الوسوم دي بتبقى محاطة بزوايا زي <code>&lt;tag&gt;</code> و<code>&lt;/tag&gt;</code>. كل وسم بيعبر عن نوع معين من المحتوى:</p>
+    <ul>
+        <li><code>&lt;h1&gt;</code> للعناوين الكبيرة.</li>
+        <li><code>&lt;p&gt;</code> للفقرات.</li>
+        <li><code>&lt;a&gt;</code> للروابط.</li>
+        <li><code>&lt;img&gt;</code> للصور.</li>
+    </ul>
+    <p>الوسوم دي بتبقى جوا هيكل أساسي بيتكون من:</p>
+    <ul>
+        <li><code>&lt;html&gt;</code>: العنصر الرئيسي اللي بيحتوي على كل حاجة.</li>
+        <li><code>&lt;head&gt;</code>: بيحتوي على معلومات زي العنوان بتاع الصفحة.</li>
+        <li><code>&lt;body&gt;</code>: بيحتوي على المحتوى اللي بيظهر للمستخدم.</li>
+    </ul>
+
+    <h2>أهمية HTML</h2>
+    <ul>
+        <li><strong>تنظيم المحتوى</strong>: HTML بتخليك تنظم النصوص والصور والفيديوهات بطريقة المتصفح يقدر يفهمها ويعرضها.</li>
+        <li><strong>التوافق مع المتصفحات</strong>: كل المتصفحات بتدعم HTML، يعني أي صفحة بتكتبها هتشتغل على أي جهاز أو متصفح.</li>
+        <li><strong>تحسين محركات البحث (SEO)</strong>: استخدام الوسوم الصحيحة زي <code>&lt;h1&gt;</code> و<code>&lt;meta&gt;</code> بيساعد جوجل يفهم محتوى صفحتك ويحسن ترتيبها في البحث.</li>
+    </ul>
+
+    <h2>مثال عملي على هيكل HTML</h2>
+    <p>هنا مثال بسيط لصفحة HTML بسيطة بتعرض عنوان وفقرة وصورة:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;مثال بسيط لصفحة HTML&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;مرحبًا بك في عالم HTML&lt;/h1&gt;
+    &lt;p&gt;دي فقرة بسيطة عشان تتعرف على هيكل الصفحة.&lt;/p&gt;
+    &lt;img src="https://example.com/image.jpg" alt="صورة مثال"&gt;
+    &lt;a href="https://example.com"&gt;اضغط هنا لزيارة موقع&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <h3>تحليل المثال</h3>
+    <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: بيحدد إن الصفحة بتستخدم HTML5.</li>
+        <li><code>&lt;html lang="ar" dir="rtl"&gt;</code>: بيخلي الصفحة تدعم العربية واتجاه النص من اليمين للشمال.</li>
+        <li><code>&lt;meta charset="UTF-8"&gt;</code>: بيضمن إن الحروف العربية تظهر صح.</li>
+        <li><code>&lt;h1&gt;</code>: عنوان رئيسي.</li>
+        <li><code>&lt;p&gt;</code>: فقرة نصية.</li>
+        <li><code>&lt;img&gt;</code>: وسم لإضافة صورة، مع سمة <code>src</code> للمسار و<code>alt</code> للنص البديل.</li>
+        <li><code>&lt;a&gt;</code>: وسم للرابط، مع سمة <code>href</code> لتحديد وجهة الرابط.</li>
+    </ul>
+
+    <h2>شكل الوسوم في سياق مختلف (Context مختلف)</h2>
+    <p>لو عايزين نشوف الوسوم دي في سياق تاني، يعني مثلاً صفحة تعليمية تفاعلية، ممكن نستخدمها كده:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ar" dir="rtl"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;صفحة تعليمية&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;تعلم HTML اليوم!&lt;/h1&gt;
+    &lt;p&gt;اضغط على الرابط ده عشان تتعلم أكتر:&lt;/p&gt;
+    &lt;a href="https://example.com/learn-html"&gt;اضغط هنا&lt;/a&gt;
+    &lt;details&gt;
+        &lt;summary&gt;اضغط عشان تعرف إزاي تضيف صورة&lt;/summary&gt;
+        &lt;p&gt;استخدم وسم &lt;code&gt;&lt;img src="رابط_الصورة" alt="وصف_الصورة"&gt;&lt;/code&gt;&lt;/p&gt;
+    &lt;/details&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <h3>ليه السياق ده مختلف؟</h3>
+    <p>هنا استخدمنا <code>&lt;details&gt;</code> و<code>&lt;summary&gt;</code> عشان نخلي الصفحة تفاعلية، يعني المستخدم يقدر يضغط عشان يشوف المعلومة. ده سياق تعليمي، عكس المثال الأول اللي كان مجرد عرض محتوى ثابت.</p>
+    <details>
+        <summary>اضغط عشان تعرف إزاي تضيف صورة</summary>
+        <p>استخدم وسم <code><img src="رابط_الصورة" alt="وصف_الصورة"> </code> وبعتمد علي نوع الملف ومكانه في الموقع</p>
+    </details>
+    <h2>الخلاصة</h2>
+    <p>HTML هي أساس تطوير الويب، وتعلمها بيفتحلك أبواب كتير في عالم البرمجة. بتساعدك تبني صفحات منظمة، متوافقة مع كل المتصفحات، وسهلة الوصول لمحركات البحث. ابدأ بفهم الوسوم الأساسية زي <code>&lt;h1&gt;</code>، <code>&lt;p&gt;</code>، و<code>&lt;a&gt;</code>، وجرب تكتب صفحتك الخاصة!</p>
+    <a href="index.html"><button>انتقل إلى الصفحة الرئيسية</button></a>
 
 </body>
 </html>
