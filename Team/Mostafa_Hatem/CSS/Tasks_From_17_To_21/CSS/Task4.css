@@ -1,0 +1,21 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100px;
+    margin: 20px auto;
+    padding: 15px;
+    border-style: solid;
+    border-bottom: 8px solid  rgb(3, 62, 49) ;
+    background-color: rgb(11, 120, 96);
+    opacity: 0.8;
+    color: white;
+}

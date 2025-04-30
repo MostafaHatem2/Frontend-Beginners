@@ -1,0 +1,17 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.one {
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+/* .three {
+    text-transform: lowercase;
+} */

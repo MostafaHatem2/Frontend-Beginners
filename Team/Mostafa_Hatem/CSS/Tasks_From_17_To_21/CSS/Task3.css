@@ -1,0 +1,19 @@
+div {
+    background-color: #EEE;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto;
+    width: 400px;
+
+}
+
+.tow {
+    overflow: hidden;
+    text-align: left;
+}
+
+.three {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

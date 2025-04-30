@@ -1,0 +1,10 @@
+div {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow:
+    0.7px 0.7px red,
+    1.4px 1.4px blue,
+    2.1px 2.1px purple;
+}
