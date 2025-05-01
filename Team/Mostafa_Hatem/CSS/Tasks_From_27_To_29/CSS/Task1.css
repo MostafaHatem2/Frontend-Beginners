@@ -1,0 +1,48 @@
+.parent-container {
+    width: 800px;
+    padding: 0;
+    margin-bottom: 15px;
+    overflow: hidden; 
+}
+
+.full-width {
+    width: 100%;
+    float: left;
+}
+
+.half {
+    width: calc(50% - 7.5px);
+    float: left;
+    margin-right: 15px;
+}
+.half:last-child {
+    margin-right: 0;
+}
+
+
+.third {
+    width: calc(33.333% - 10px);
+    float: left;
+    margin-right: 15px;
+}
+.third:last-child {
+    margin-right: 0;
+}
+
+
+.quarter {
+    width: calc(25% - 11.25px);
+    float: left;
+    margin-right: 15px;
+}
+.quarter:last-child {
+    margin-right: 0;
+}
+
+.child-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
