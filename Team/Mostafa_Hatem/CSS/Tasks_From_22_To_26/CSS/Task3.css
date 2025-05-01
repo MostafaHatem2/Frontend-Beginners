@@ -1,0 +1,29 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    text-transform: capitalize;
+}
+
+div {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #000;
+    background-color: #EEE;
+    font-size: 20px;
+}
+
+.open-sans {
+    font-weight: 1px;
+    font-size: 2.5rem;
+}
+
+.cairo {
+    font-size: 2rem;
+}
+
+.jomhuria {
+    font-size: 1.3rem;
+}
