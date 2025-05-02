@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div {
+    position: relative;
+    width: 400px;
+    text-align: center; 
+    border-style: solid;
+    border-width: 2px;
+    border-color: red  rgb(0, 128, 255); 
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #EEE;
+    line-height: 2;
+    padding: 10px;
+}
+
+.top-left {
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-right: 2px solid red;
+    top: -17px;
+    left: -15px;
+}
+
+.bottom-left {
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-right: 2px solid red;
+    top: 133px;
+    left: -17px;
+}
+
+.top-right {
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-left: 2px solid red;
+    top: -17px;
+    right: -15px;
+}
+
+.bottom-right {
+    position: absolute;
+    background-color: rgb(0, 128, 255);
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-left: 2px solid red;
+    top: 133px;
+    right: -15px;
+}
+

@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;  
+    list-style-type: none;
+    padding-inline-start: 0%;
+}
+
+ol {
+    list-style-type: none;
+    padding-inline-start: 0%;
+}
+
+.number {
+    background-color: #EEE;
+    padding: 10px;
+    text-align: left;  
+}
+
+.number ol {
+    list-style-type: decimal;
+    counter-reset: item 9; 
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.number li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+li .hexa {
+    margin-top: 15px;
+    background-color: #EEE;
+    padding: 10px;
+    text-align: left;
+}
+
+.hexa ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hexa li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+    
+
+
+.hhhr {
+    margin-top: 15px;
+    background-color: #EEE;
+    padding: 10px;
+    text-align: left;
+}
+
+.hhhr ul {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hhhr li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
