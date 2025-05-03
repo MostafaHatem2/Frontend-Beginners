@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    background-color: #EEE;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+    border-left: 5px solid red;
+}
+
+p::after {
+    content: attr(data-person);
+    background: #EEE;
+    padding: 15px;
+    top: 10px;
+    position: absolute;
+    left: -115px;
+    width: 50px;}
+
+p::before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent red transparent transparent;
+    width: 0;
+    height: 0;
+    left: -23px;
+    top: 50%;
+    margin-top: -10px;
+}
