@@ -70,6 +70,12 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 | 1  | CSS Elzero assignment from 1 to 4 | 4/5/2025 | 1 day | [Elzero CSS Study Plan](https://elzero.org/study/css-2021-study-plan/) |
 
 
+## Task2 CSS
+| No | Task | Deadline | Duration | Link |
+|----|------|----------|----------|------|
+| 1  | CSS Elzero assignment from 5 to 8 | 5/5/2025 | 1 day | [Elzero CSS Study Plan](https://elzero.org/study/css-2021-study-plan/) |
+
+
 
 ## References:
 1. [Elzero HTML playlist 37 vids ..4h 15min ](https://youtube.com/playlist?list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji&si=MkL5v8HEdXAYqZ0l)
