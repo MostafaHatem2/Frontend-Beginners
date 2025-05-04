@@ -1,0 +1,16 @@
+
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: #EEE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-end-end-radius: 20%;
+    border-top-left-radius: 20%;
+    box-shadow: inset 0 0 8px 0px black;
+}
