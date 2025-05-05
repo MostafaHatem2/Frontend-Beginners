@@ -1,0 +1,38 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 400px;
+    background-color: #EEE;
+    padding: 50px;
+    text-align: center;
+    margin: 50px auto;
+    transition: all 2s 0.5s linear;
+    -webkit-transition: all 2s 0.5s linear;
+    -moz-transition: all 2s 0.5s linear;
+    -ms-transition: all 2s 0.5s linear;
+    -o-transition: all 2s 0.5s linear;
+}
+
+.parent:hover {
+    margin-top  : 20px;
+}
+
+.into {
+    text-align: center;
+    background-color: #b1b0b0;
+    padding: 2px;
+    margin-top: -15px;
+    transition: all 2s 0.5s linear;
+    -webkit-transition: all 2s 0.5s linear;
+    -moz-transition: all 2s 0.5s linear;
+    -ms-transition: all 2s 0.5s linear;
+    -o-transition: all 2s 0.5s linear;
+}
+
+.into:hover {
+    margin-top: 30px;
+}
