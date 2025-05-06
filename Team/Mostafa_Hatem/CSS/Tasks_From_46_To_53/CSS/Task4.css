@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #EEE;
+}
+
+.parent div {
+    width: calc(90% / 4);
+    height: calc(90% / 2);
+    color: white;
+}
+.one {
+    order: 2;
+    background-color: gold;
+    text-align: center;
+    align-content: center;
+}
+
+.two {
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #41b648e3;
+    margin-top: 150px;
+}
+
+.three {
+    order: 4;
+    background-color: #60321ddb;
+    text-align: center;
+    align-content: center;
+}
+
+.four {    
+    order: 1;
+    display: flex;
+    background-color: #6935ca;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}

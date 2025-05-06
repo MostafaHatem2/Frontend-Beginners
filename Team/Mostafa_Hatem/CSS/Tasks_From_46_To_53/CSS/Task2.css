@@ -1,0 +1,25 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EEE;
+    justify-content: space-between;
+}
+
+.parent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(90% / 3);
+    margin-bottom: calc(((100% / 2 ) - 35px));
+    color: white;
+    background-color: orangered;
+    align-content: space-between;
+}
