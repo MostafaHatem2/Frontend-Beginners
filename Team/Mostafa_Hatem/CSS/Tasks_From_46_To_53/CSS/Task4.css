@@ -44,7 +44,7 @@ body {
 .four {    
     order: 1;
     display: flex;
-    background-color: #6935ca;
+    background-color: palevioletred;
     align-items: center;
     justify-content: center;
     margin-top: 150px;

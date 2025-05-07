@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+div {
+    background-color: #EEE;
+    padding: 10px;
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+    outline: none;
+    caret-color: red;
+}
+
+div:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.one::before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 2px);
+    right: 0;
+    background-image: linear-gradient(to right, rgb(209, 62, 62) 50%, #129e84 50%);
+    height: 1px;
+    padding: 1px;
+    bottom: 0;
+}
+
+
+.two::before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 2px);
+    right: 0;
+    background-image: linear-gradient(to right, rgb(209, 62, 62) 50%, #129e84 50%);
+    height: 1px;
+    padding: 1px;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.three::after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 2px);
+    right: 0;
+    background-image: linear-gradient(to right, rgb(209, 62, 62) 50%, #129e84 50%);
+    height: 1px;
+    padding: 1px;
+    bottom: 0;
+    pointer-events: none;
+}
