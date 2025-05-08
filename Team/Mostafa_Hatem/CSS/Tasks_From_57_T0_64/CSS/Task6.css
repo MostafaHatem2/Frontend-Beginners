@@ -1,0 +1,156 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --main-color: white;
+    --second-color: black;
+    --main-padding: 10px;
+    --footer-margin: 55px;
+}
+.all {
+    background-color: #EEE;
+    padding: 20px;
+    margin: 10px;
+}
+main {
+    width: calc(100vw - 55px);
+    display: grid;
+    height: 100vh;
+    padding: var(--main-padding);
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+
+.osama {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    padding: var(--main-padding);
+    background-color: var(--main-color);
+}
+
+
+.ahmed {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    padding: var(--main-padding);
+    background-color: var(--main-color);
+}
+
+
+aside {
+    display: grid;
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+    padding: var(--main-padding);
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+
+.shady h4 {
+    font-size: 1.2rem;
+}
+
+
+.mohamed {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    padding: var(--main-padding);;
+    background-color: var(--main-color);
+}
+
+.mahmoud {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    padding: var(--main-padding);
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+.ezz {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    padding: var(--main-padding);
+    background-color: var(--main-color);
+}
+
+
+
+.osama h2, .shady h2, .ahmed h2, .mohamed h2 ,.ezz h2 , .mahmoud h2 ,.shady h2
+, .eman h2 , .gamal h2 , .ibrahim-sayed h2, .mohamed-sayed h2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px  ;
+}
+
+
+.osama .role, .shady .role, .ahmed .role, .mohamed .role ,.ezz .role, .mahmoud .role, .shady .role 
+, .eman .role , .gamal .role , .ibrahim-sayed .role , .mohamed-sayed .role 
+ {
+    color: black;
+    opacity: 0.5;
+    padding-top: 0px;
+    margin-top:0 ;
+    padding-left: 5px;
+}
+
+
+.osama , aside, .ahmed, .mohamed  ,.ezz , .mahmoud , 
+ .eman, .gamal , .ibrahim-sayed , .mohamed-sayed {
+    border-bottom: 3px solid red;
+} 
+
+.shady .role , .mahmoud .role , .ibrahim-sayed .role  {
+    color: white;
+}
+
+
+footer {
+    width: calc(100vw - 55px);
+    display: grid;
+    background-color: #EEE;
+    padding: var(--main-padding);
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;    
+    margin-top: var(--footer-margin);
+}  
+
+.mohamed-sayed {
+    margin-top: var(--footer-margin);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: var(--main-padding);
+    background-color: var(--main-color);
+}
+
+.ibrahim-sayed {
+    margin-top: var(--footer-margin);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: var(--main-padding);
+    background-color: black;
+    color: white;
+}
+
+.gamal {
+    margin-top: var(--footer-margin);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    padding: var(--main-padding);
+    background-color: var(--main-color);
+}
+.eman {
+    margin-top: var(--footer-margin);
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    padding: var(--main-padding);
+    background-color: var(--main-color);
+}

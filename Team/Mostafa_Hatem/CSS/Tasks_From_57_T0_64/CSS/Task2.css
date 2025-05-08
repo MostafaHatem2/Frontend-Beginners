@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px 1fr 30px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEE;
+    grid-template-areas:
+        "header header header header"
+        "section section section aside"
+        "foot foot foot foot";
+}
+
+.layout header {
+    background-color: #0081ffde;
+    display: grid;
+    grid-area: header;
+    position: relative;
+}
+
+.layout header::after {
+    content: "Header";
+    position: absolute;
+    font-size: small;
+    color: #EEE;
+    top: 25%;
+    padding-left: 10px;
+}
+
+.layout section {
+    display: grid;
+    background-color: orangered;
+    grid-area: section;
+    position: relative;
+}
+
+.layout section::after {
+    content: "Section";
+    position: absolute;
+    font-size: small;
+    color: #EEE;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.layout aside {
+    display: grid;
+    background-color: #5d6077;
+    grid-area: aside;
+    position: relative;
+}
+
+.layout aside::after {
+    content: "Aside";
+    position: absolute;
+    font-size: small;
+    color: #EEE;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.layout footer {
+    display: grid;
+    background-color: #139913f5;
+    grid-area: foot;
+    position: relative;
+}
+
+.layout footer::after {
+    content: "Footer";
+    position: absolute;
+    font-size: small;
+    color: #EEE;
+    top: 32%;
+    padding-left: 10px;
+}
