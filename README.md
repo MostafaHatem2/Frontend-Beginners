@@ -91,6 +91,11 @@ This is to solve daily tasks and to make the group accustomed to the teams and h
 |----|------|----------|----------|------|
 | 1  | CSS Elzero assignment from 17 to 21 | 9/5/2025 | 2 days | [Elzero CSS Study Plan](https://elzero.org/study/css-2021-study-plan/) |
 
+## Task6 CSS
+| No | Task | Deadline | Duration | Link |
+|----|------|----------|----------|------|
+| 1  | CSS Elzero assignment from 22 to 26 | 11/5/2025 | 2 days | [Elzero CSS Study Plan](https://elzero.org/study/css-2021-study-plan/) |
+
 
 
 ## References:
