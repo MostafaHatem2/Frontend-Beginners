@@ -1,0 +1,88 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+}
+
+div {
+    display: flex;
+    background-color: #EEE;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 2;
+    position: relative;
+
+}
+
+div::before,
+div::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 80px);
+    height: calc(100% + 80px);
+    z-index: -1;
+    border: 20px solid blue;
+    border-right: white;
+    border-radius: 50%;
+    box-sizing:content-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 2s linear;
+    -webkit-transition: 2s linear;
+    -moz-transition: 2s linear;
+    -ms-transition: 2s linear;
+    -o-transition: 2s linear;
+}
+
+div::after {
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+    border: 20px solid red;
+    border-left: white;
+    z-index: 1;
+}
+
+div:hover::after
+ {
+    transition: 2s linear;
+    -webkit-transition: 2s linear;
+    -moz-transition: 2s linear;
+    -ms-transition: 2s linear;
+    -o-transition: 2s linear;
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+
+div:hover::before {
+    transition: 2s linear;
+    -webkit-transition: 2s linear;
+    -moz-transition: 2s linear;
+    -ms-transition: 2s linear;
+    -o-transition: 2s linear;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
