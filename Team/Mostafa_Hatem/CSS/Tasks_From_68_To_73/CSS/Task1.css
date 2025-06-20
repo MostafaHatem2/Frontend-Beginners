@@ -1,0 +1,33 @@
+
+
+:root {
+    --main-color: rgb(230, 43, 43);
+    --main-background: white;
+    --second-background: #EEE;
+}
+
+body {
+    background-color: var(--main-background);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 150px;
+    height: 150px;
+    color: var(--main-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--main-color);
+    top: 0;
+    left: 0;
+    clip-path: polygon(0% 20%, 5% 40%, 5% 60%, 0% 80%, 40% 75.00%, 60% 75%, 100% 80%, 95% 60%, 95% 40%, 100% 20%, 60% 25%, 40% 25%);
+}

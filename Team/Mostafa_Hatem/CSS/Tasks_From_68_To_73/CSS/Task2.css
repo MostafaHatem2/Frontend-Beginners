@@ -1,0 +1,60 @@
+:root {
+    --main-color: white;
+    --main-backgound-color: white;
+    --second-background-color: rgb(6, 127, 95);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: var(--main-backgound-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+      background-color: var(--second-background-color);
+      color: var(--main-color);
+      width: 150px;
+      height: 100px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+}
+
+h1::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    left: -15px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--second-background-color);
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -ms-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    z-index: -1;
+}
+
+h1::after {
+    content: "";
+    position:absolute;
+    top: 0;
+    left: -45px;
+    width: 15%;
+    height: 100%;
+    background-color: var(--second-background-color);
+    transform: skew(15deg);
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -ms-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    z-index: -1;
+}

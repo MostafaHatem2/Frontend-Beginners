@@ -1,0 +1,66 @@
+
+:root {
+    --main-color: #fff;
+    --main-background: SlateGrey;
+    --second-background: black;
+
+}
+
+body {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--main-color);
+}
+
+div {
+    background-color: var(--second-background);
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    position: relative;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+div::before {
+    content: "";
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    background-color: var(--main-background);
+    top: 55px;
+    left: 60px;
+    clip-path: polygon(100% 100% , 100% 0% , 0% 0%, 0% 100%, 50% 50%);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    border-top: 10px solid var(--second-background);
+}
+
+div::after {
+    content: "Elzero";
+    width: 120%;
+    height: 20%;
+    position: absolute;
+    bottom: -115px;
+    left: 170px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    background-color: var(--main-background);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
