@@ -1,0 +1,5 @@
+
+
+div :not(:first-child, h3 , :last-child){
+    color: red;
+}

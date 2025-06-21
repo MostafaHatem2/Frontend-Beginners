@@ -1,0 +1,5 @@
+
+
+div[title]:last-child:not(.no-need, .no-need div){
+    color: red;
+}
