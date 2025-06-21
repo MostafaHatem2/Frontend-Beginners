@@ -1,0 +1,43 @@
+
+
+:root {
+    --large-screen-color: Teal;
+    --meduim-screen-color: red;
+    --mobile-screen-color: black;
+}
+
+body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+div {
+    flex-direction: column;
+    background-color: #EEE;
+    width: 100%;
+    margin: 10px auto;
+}
+
+h3 , p{
+    text-align: center;
+    color: var(--mobile-screen-color);
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    div {
+        display: inline-block;
+        width: calc(50% - 10px);
+    }
+    h3 {
+        color: var(--meduim-screen-color);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    div {
+        width: calc(25% - 10px);
+    }
+    h3 {
+        color: var(--large-screen-color);
+    }
+}   
