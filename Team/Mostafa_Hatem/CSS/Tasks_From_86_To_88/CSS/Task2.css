@@ -1,0 +1,57 @@
+
+body{
+    margin: 40px;
+}
+
+.arrow.bottom::after,
+.arrow.left::after,
+.arrow.right::after,
+.arrow.top::after {
+    content: "";
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    z-index: -2;
+}
+
+.arrow.left::after {
+    top: 40%;
+    left: -10px;
+}
+
+.arrow.right::after {
+    top: 40%;
+    right: -10px;
+}
+
+.arrow.top::after {
+    top: -10px;
+    left: 50%;
+}
+
+.arrow.bottom::after {
+    bottom: -10px;
+    left: 50%;
+}
+
+
+.arrow.left ,
+.arrow.bottom,
+.arrow.top,
+.arrow.right {
+    background-color: #EEE;
+    margin: 10px auto;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
