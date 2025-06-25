@@ -1,0 +1,33 @@
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 400px;
+    height: 100px;
+    background-color: #EEE;
+}
+
+span {
+    width: 40px;
+    height: 40px;
+    background-color: DarkCyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    color: #fff;
+}
+
+input {
+    width: 200px;
+    height: 34px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

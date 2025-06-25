@@ -1,0 +1,48 @@
+:root {
+    --border-unit: 8px;
+    --color-inner-box: #F0F0F0;
+    --border-color-1: #A7D9D3;
+    --border-color-2: #FFFF99;  
+    --border-color-3: #FF66B2;  
+    --border-color-4: #66C2B3;  
+    --border-color-5: #9966CC;  
+    --border-color-6: #3366CC;  
+    --border-color-7: #A5845C;  
+    --border-color-8: #36454F;  
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 300px;
+    height: 150px;
+    background-color: var(--color-inner-box);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+
+    box-shadow: 
+        0 0 0 var(--border-unit) var(--border-color-1),
+        0 0 0 calc(var(--border-unit) * 2) var(--border-color-2),
+        0 0 0 calc(var(--border-unit) * 3) var(--border-color-3),
+        0 0 0 calc(var(--border-unit) * 4) var(--border-color-4),
+        0 0 0 calc(var(--border-unit) * 5) var(--border-color-5),
+        0 0 0 calc(var(--border-unit) * 6) var(--border-color-6),
+        0 0 0 calc(var(--border-unit) * 7) var(--border-color-7),
+        0 0 0 calc(var(--border-unit) * 8) var(--border-color-8); 
+}

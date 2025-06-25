@@ -1,0 +1,15 @@
+div {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+
+    
+    column-count: 3; 
+    column-gap: 30px; 
+    column-rule: 2px dashed black;
+  }
+  

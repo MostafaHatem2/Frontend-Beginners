@@ -1,0 +1,92 @@
+
+
+
+div {
+    background-color: #EEE;
+    width: 200px;
+    height: 140px;
+    margin: 10px auto;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+span:first-child {
+    transform: translate(50px, 30px);
+    -webkit-transform: translate(50px, 30px);
+    -moz-transform: translate(50px, 30px);
+    -ms-transform: translate(50px, 30px);
+    -o-transform: translate(50px, 30px);
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+span:nth-child(2) {
+    transform: translate(50px, 60px);
+    -webkit-transform: translate(50px, 60px);
+    -moz-transform: translate(50px, 60px);
+    -ms-transform: translate(50px, 60px);
+    -o-transform: translate(50px, 60px);
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+span:last-child {
+    transform: translate(50px, 90px);
+    -webkit-transform: translate(50px, 90px);
+    -moz-transform: translate(50px, 90px);
+    -ms-transform: translate(50px, 90px);
+    -o-transform: translate(50px, 90px);
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+div:hover > span:nth-child(2) {
+    transform: translate(-100px, 60px);
+    -webkit-transform: translate(-100px, 60px);
+    -moz-transform: translate(-100px, 60px);
+    -ms-transform: translate(-100px, 60px);
+    -o-transform: translate(-100px, 60px);
+    opacity: 0;
+    background-color: red;
+}
+
+
+div:hover > span:last-child {
+   transform: translate(50px ,50px) rotate(-230deg);
+   -webkit-transform: translate(50px ,50px) rotate(-230deg);
+   -moz-transform: translate(50px ,50px) rotate(-230deg);
+   -ms-transform: translate(50px ,50px) rotate(-230deg);
+   -o-transform: translate(50px ,50px) rotate(-230deg);
+   background-color: red;
+}
+
+div:hover > span:first-child {
+    transform: translate(50px ,50px) rotate(230deg);
+    -webkit-transform: translate(50px ,50px) rotate(230deg);
+    -moz-transform: translate(50px ,50px) rotate(230deg);
+    -ms-transform: translate(50px ,50px) rotate(230deg);
+    -o-transform: translate(50px ,50px) rotate(230deg);
+    background-color: red;
+}
+ 
+ 

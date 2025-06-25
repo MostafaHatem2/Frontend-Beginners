@@ -1,0 +1,50 @@
+
+
+:root{
+    --one-color: red;
+    --tow-color: blue;
+    --three-color: green;
+    --four-color: black;
+}
+
+body {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+}
+.elzero-lines {
+    /* Write Your CSS Code */
+    margin: 10px auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 100px;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 5px solid var(--one-color);
+
+}   
+
+.elzero-lines::before {
+    content: "";
+    width: 102%;
+    height: 110%;
+    position: absolute;
+    border: 5px solid var(--tow-color);
+}
+
+.elzero-lines::after {
+    content: "";
+    width: 104%;
+    height: 120%;
+    position: absolute;
+    border: 5px solid var(--three-color);
+    outline: 5px solid var(--four-color);
+}

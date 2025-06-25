@@ -1,0 +1,10 @@
+
+
+.font {
+    /* font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Arial, sans-serif; */
+    font: italic bold  30px Arial;
+}

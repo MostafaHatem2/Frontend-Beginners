@@ -1,0 +1,234 @@
+
+:root {
+    --main-background: #EEE;
+    --second-background: white;
+    --main-color: DodgerBlue;
+    --second-color: DarkGray;
+}
+
+body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--main-background);
+    padding: 20px; 
+    width: 600px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    background-color: var(--second-background);   
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    width: 120px;
+    position: relative;
+}
+
+.main-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--main-color);
+    position: relative;
+}
+.price::before {
+    content: "$";
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+.price::after {
+    content: "/ Mo";
+    position: absolute;
+    right: 25px;
+    font-size: 10px;
+    bottom: 2px;
+    color: var(--second-color);
+}
+
+.work-free {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.work-free::before {
+    content: "Free ";
+    font-weight: bold;
+}
+
+.work-1x {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.work-1x::before {
+    content: "1x ";
+    font-weight: bold;
+}
+
+
+.work-2x {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.work-2x::before {
+    content: "2x ";
+    font-weight: bold;
+}
+
+.work-3x {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.work-3x::before {
+    content: "3x ";
+    font-weight: bold;
+}
+
+.work-unlimited {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.work-unlimited::before {
+    content: "Unlimited ";
+    font-weight: bold;
+}
+
+.work-1 {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.work-1::before {
+    content: "Free ";
+    font-weight: bold;
+}
+
+.worked-1 {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.worked-1::before {
+    content: "1x ";
+    font-weight: bold;
+}
+
+.worked-2 {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.worked-2::before {
+    content: "2x ";
+    font-weight: bold;
+}
+
+.worked-3 {
+    font-size: 10px;
+    color: var(--second-color);
+    padding-left: 5px;
+}
+
+.worked-3::before {
+    content: "3x ";
+    font-weight: bold;
+}
+
+.most {
+    width: 120px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--main-color);
+    position: absolute;
+    top: -25px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.most::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -7px;
+    width: 50px;
+    height: 20px;
+    background-color: MediumBlue;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    z-index: -1;
+}
+
+.most::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -7px;
+    width: 50px;
+    height: 20px;
+    background-color: MediumBlue;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    z-index: -1;
+}
+
+.buttom {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

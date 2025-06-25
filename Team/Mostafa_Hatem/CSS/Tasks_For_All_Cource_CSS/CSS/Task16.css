@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+table {
+    background-color: #EEE;
+    margin: 20px auto;
+    padding: 50px;
+    position: relative;
+}
+
+tr , td {
+    background-color: #fff;
+    width: 500px;
+    height: 50px;
+    text-align: center  ;
+}
+
+th {
+    background-color: LightGray;
+}
+
+tfoot td {
+    background-color: DodgerBlue	;
+    color: #fff;
+}
+
+tfoot td:first-child{
+    color: black;
+    background-color: yellow;
+}
+
+caption {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    background-color: LightGray;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

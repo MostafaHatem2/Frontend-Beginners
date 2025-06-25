@@ -1,0 +1,158 @@
+
+body{
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {
+    background-color: #EEE;
+    width: 800px;
+    height: 400px;
+    margin: 30px auto;
+}
+.home {
+    background-color: #EEE;
+    width: 700px;
+    height: 300px;
+    margin: 50px;
+}
+
+.login {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 0;
+    margin-bottom: -15px;
+}
+
+.two {
+    width: 700px;
+    height: 300px;
+    background-color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+
+.main {
+    padding-top: 15px;
+    color: gray;
+    padding-left: 30px;
+    position: relative;
+}
+
+.email {
+    width: 300px;
+    caret-color: red;
+    background-color: #EEE;
+    border-radius: 10px;
+    height: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #EEE;
+}
+
+.password {
+    width: 300px;
+    caret-color: red;
+    background-color: #EEE;
+    border-radius: 10px;
+    height: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #EEE;
+}
+
+.login-down {
+    width: 300px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 30px;
+}
+
+.up::before {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: #EEE;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    position: absolute;
+    bottom: 80px;
+    right: 285px;
+}
+
+
+.down::before {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: #EEE;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    position: absolute;
+    top: 80px;
+    right: 285px;
+}
+
+.main::after {
+    content: "Or";
+    color: gray;
+    font-size: 15px;
+    top: 140px;
+    left: 365px;
+    position: absolute;
+}
+
+.contact {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.connect-name {
+    position: absolute;
+    color: gray;
+    top: -40px;
+    left: 75px;
+}
+
+.facebook, .twitter, .linkedin {
+    width: 250px;
+    height: 50px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

@@ -1,0 +1,238 @@
+
+:root {
+    --main-background: #EEE;
+    --second-background: #ffffff;
+    --third-background: Gainsboro;
+    --fourth-background: DodgerBlue;
+    --fifth-background: red;
+    --sixth-background: SlateGray;
+}
+
+.main {
+    background-color:  var(--main-background);
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -2;
+}
+
+.mediem {
+    background-color: var(--third-background);
+    width: 450px;
+    height: 250px;
+    position: relative;
+    z-index: -1;
+}
+
+.mediem-up {
+    background-color: var(--sixth-background);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 25%;
+    z-index: 0;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: var(--fourth-background);
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 3;
+}
+
+.blue::before {
+    content: "";
+    background-color: #ffffff6e;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 3;
+}
+
+.black {
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    position: absolute;
+    top: 45px;
+    right: 155px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 2;
+}
+
+.bieg {
+    width: 150px;
+    height: 150px;
+    background-color: var(--third-background);
+    position: absolute;
+    top: 35px;
+    right: 145px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+}
+
+.white {
+    width: 180px;
+    height: 180px;
+    background-color: var(--second-background);
+    position: absolute;
+    top: 20px;
+    right: 130px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.up {
+    position: relative;
+}
+
+.up .uppers {
+    background-color: var(--sixth-background);
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    bottom: 70px;
+    left: 170px;
+    z-index: -1;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.up .uppers::before {
+    content: "";
+    background-color: var(--sixth-background);
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    left: -2px;
+    z-index: 3;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+}
+
+.up .uppers::after {
+    content: "";
+    background-color: var(--sixth-background);
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    right: -2px;
+    z-index: 3;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(20deg);
+}
+
+.med {
+    background-color: var(--third-background);
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    bottom: 123px;
+    left: 190px;
+    z-index: -1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.med-med {
+    background-color: var(--sixth-background);
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    bottom: 128px;
+    left: 213px;
+    z-index: 2;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+.ub-ub {
+    background-color: var(--sixth-background);
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    bottom: 110px;
+    left: 20px;
+    z-index: -1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ub-up {
+    background-color: red;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    bottom: 128px;
+    left: 31px;
+    z-index: -1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.mediem::after {
+    content: "Created By Mostafa Hatem";
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
