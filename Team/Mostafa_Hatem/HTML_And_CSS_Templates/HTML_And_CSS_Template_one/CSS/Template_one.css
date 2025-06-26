@@ -1,6 +1,3 @@
-
-
-
 :root {
     --main-bgc: #EEE;
     --second-bgc: #fff;
@@ -103,15 +100,15 @@ ul {
 }
 
 .links li a:hover {
-  transform: translateX(5px);
-  -webkit-transform: translateX(5px);
-  -moz-transform: translateX(5px);
-  -ms-transform: translateX(5px);
-  -o-transform: translateX(5px);
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
 }
 
 
-.hamburger:hover > span:nth-child(2) {
+.hamburger:hover>span:nth-child(2) {
     width: 30px;
     left: 0;
     transition: 1s;
@@ -121,7 +118,7 @@ ul {
     -o-transition: 1s;
 }
 
-.hamburger:hover > .links {
+.hamburger:hover>.links {
     display: block;
 }
 
@@ -136,19 +133,23 @@ ul {
 }
 
 @media (max-width: 767px) {
-    .header{
+    .header {
         width: 100%;
     }
+
     .hamburger {
         left: 90%;
     }
+
     .logo {
         left: 10%;
     }
+
     .links {
         left: -230%;
         top: 40%;
     }
+
     .links li a {
         margin-bottom: -1px;
     }
@@ -192,7 +193,7 @@ ul {
     -ms-transform: translate(-50%, 150%);
     -o-transform: translate(-50%, 150%);
     word-spacing: 2px;
-}   
+}
 
 .mid {
     background-color: var(--main-bgc);
@@ -200,8 +201,8 @@ ul {
     width: 100%;
     height: 50%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     padding-bottom: 100px;
 }
 
@@ -235,13 +236,14 @@ i {
 
 @media (max-width: 767px) {
     .mid {
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         padding: 50px;
         padding-left: 50px;
         padding-left: 0;
         margin-left: -40px;
     }
+
     .one {
         position: relative;
         padding: 60px;
@@ -255,11 +257,12 @@ i {
 }
 
 
-@media (min-width: 768px) and (max-width: 1100px){
+@media (min-width: 768px) and (max-width: 1100px) {
     .mid {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
+
     .one {
         position: relative;
         padding: 60px;
@@ -313,8 +316,8 @@ i {
 
 .serv {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1f);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1f);
     padding: 60px;
     padding-right: 500px;
     margin-left: 130px;
@@ -333,7 +336,10 @@ i {
     position: relative;
 }
 
-.fa-palette ,.fa-vector-square , .fa-sketch ,.fa-pencil-ruler {
+.fa-palette,
+.fa-vector-square,
+.fa-sketch,
+.fa-pencil-ruler {
     position: absolute;
     top: 10%;
     left: -35%;
@@ -359,50 +365,63 @@ i {
 
 @media (max-width: 767px) {
     .serv {
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         margin: -15px;
     }
+
     .image-two {
         display: none;
     }
+
     .image-one::before {
         display: none;
     }
+
     .services {
         font-size: 70px;
     }
+
     .mssg {
         font-size: 20px;
     }
+
     .lok {
         font-size: 15px;
     }
+
     .srv {
         width: 300%;
         height: 50%;
         margin-top: 40px;
     }
-    .fa-palette ,.fa-vector-square , .fa-sketch ,.fa-pencil-ruler {
+
+    .fa-palette,
+    .fa-vector-square,
+    .fa-sketch,
+    .fa-pencil-ruler {
         position: absolute;
         top: -30%;
         left: 25%;
     }
+
     .lok {
         font-size: 15px;
         text-align: center;
     }
+
     .dow-lok {
         font-size: 15px;
         text-align: center;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1400px){
+@media (min-width: 768px) and (max-width: 1400px) {
     .serv {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
+
     .one {
         position: relative;
         padding: 60px;
@@ -415,13 +434,15 @@ i {
         margin-top: 0;
         margin-left: 2%;
     }
+
     .image-one::before {
         display: none;
     }
+
     .image-two {
         display: none;
     }
-    
+
     .srv {
         width: 80%;
         position: relative;
@@ -429,7 +450,7 @@ i {
         padding-bottom: 65px;
     }
 
-    .serv{
+    .serv {
         padding: 0;
         margin: 0;
         margin-top: 0px;
@@ -439,16 +460,21 @@ i {
         margin-left: 20px;
     }
 
-    .fa-palette ,.fa-vector-square , .fa-sketch ,.fa-pencil-ruler {
+    .fa-palette,
+    .fa-vector-square,
+    .fa-sketch,
+    .fa-pencil-ruler {
         position: absolute;
         top: -18%;
         left: 32%;
         margin-bottom: 50px
     }
+
     .lok {
         font-size: 15px;
         text-align: center;
     }
+
     .dow-lok {
         font-size: 15px;
         text-align: center;
@@ -474,8 +500,8 @@ i {
 
 .port {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     position: relative;
     padding: 0;
     margin: 160px;
@@ -543,21 +569,24 @@ i {
 @media (max-width: 767px) {
     .port {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         position: relative;
         margin: 25px;
     }
+
     .one-port {
         grid-column: 1/2;
         grid-row: 1/2;
         margin-bottom: 25px;
     }
+
     .two-port {
         grid-column: 1/2;
         grid-row: 2/3;
         margin-bottom: 25px;
     }
+
     .three-port {
         grid-column: 1/2;
         grid-row: 3/4;
@@ -568,23 +597,26 @@ i {
 @media (min-width: 768px) and (max-width: 1400px) {
     .port {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         position: relative;
         margin: 160px;
         margin-top: 160px;
         margin-top: 10px;
     }
+
     .one-port {
         grid-column: 1/2;
         grid-row: 1/2;
         margin-bottom: 25px;
     }
+
     .two-port {
         grid-column: 2/3;
         grid-row: 1/2;
         margin-bottom: 25px;
     }
+
     .three-port {
         grid-column: 1/2;
         grid-row: 2/3;
@@ -606,7 +638,8 @@ i {
     left: 100px;
 }
 
-.comment-about, .comment-about2 {
+.comment-about,
+.comment-about2 {
     margin-left: 480px;
     padding-right: 50px;
     padding-top: 250px;
@@ -614,6 +647,7 @@ i {
     word-spacing: 5px;
     width: 700px;
     margin-left: 700px;
+    position: relative;
 }
 
 .comment-about2 {
@@ -625,9 +659,9 @@ i {
 .comment-about::before {
     content: "";
     position: absolute;
-    top: 55%;
-    left: 46%;
-    width: 23%;
+    top: 125%;
+    left: 0;
+    width: 45%;
     height: 2px;
     background-color: var(--main-color);
 }
@@ -635,10 +669,10 @@ i {
 .comment-about2::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 410px;
-    width: 8%;
-    height: 620px;
+    top: 125%;
+    left: -35%;
+    width: 25%;
+    height: 85px;
     background-color: var(--main-color);
     z-index: -1;
 }
@@ -646,10 +680,10 @@ i {
 .comment-about2::after {
     content: "";
     position: absolute;
-    top: 530px;
-    left: 500px;
-    width: 10%;
-    height: 90px;
+    top: -206%;
+    left: -38%;
+    width: 15%;
+    height: 620px;
     background-color: var(--main-color);
     z-index: -1;
 }
@@ -658,11 +692,11 @@ i {
     content: "";
     position: absolute;
     top: 0;
-    left: 70px;
-    width: 7%;
+    left: -85%;
+    width: 15%;
     height: 730px;
     background-color: var(--main-bgc);
-    z-index: -1;
+    z-index: -1;;
 }
 
 .contact {
@@ -726,6 +760,104 @@ i {
 }
 
 
+@media (max-width: 767px) {
+     .comment-about2::before , .comment-about2::after
+    ,.comment-about::after{
+        content: "";
+        display: none;
+    }
+    .comment-about::before {
+        content: "";
+        position: absolute;
+        top: 140%;
+        left: 75px;
+        width: 45%;
+        height: 2px;
+        background-color: var(--main-color);
+    }
 
+    #about {
+        padding-top: 800px;
+        height: 1000px;
+    }
 
-
+    .about {
+        position: absolute;
+        padding-top: 0;
+        margin-top: 100%;
+    }
+    .about img {
+        padding: 0;
+        margin: 10px auto;
+        margin-top: 10px;
+        display: flex;
+        width: 200px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -450px;
+    }
+    .comment-about {
+        padding: 0;
+        margin: 10px;
+        margin-top: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+        word-spacing: 15px;
+        font-size: 15px;
+      }
+      .comment-about2 {
+        padding: 0;
+        padding: 0;
+        margin: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250%;
+        width: 100%;
+        font-size: 15px;
+        margin-left: 20px;
+        word-spacing: 15px;
+        position: absolute;
+        top: -125%;
+        margin-left: 12px;
+      }
+      .contact-p {
+        position: absolute;
+        top: 50%;
+        color: var(--third-bgc);
+        font-weight: bold;
+        font-size: 26px;
+        flex-wrap: wrap;
+        left: 20%;
+        width: 100%;
+        height: 100%;
+        letter-spacing: -2px;
+      }
+      .contact-p2 {
+        position: absolute;
+        top: 30px;
+        left: 22%;
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 25px;
+        word-spacing: 0;
+        letter-spacing: 0;
+      }
+      .social {
+        position: absolute;
+        top: 68%;
+        left: -135%;
+      }
+      .one-footer {
+        position: absolute;
+        top: 56%;
+        left: -23%;
+      }
+}    
