@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Task 1</title>
+    <script>
+      // Code One
+      document.getElementById("el").style.color = "red";
+      // This will not run properly because the element <h1 id="el"> has not been loaded yet.
+    </script>
+    <script>
+      // Code Two
+      window.onload = function () {
+        document.getElementById("el").style.color = "blue";
+      };
+      // This will work because it waits until the page is fully loaded.
+    </script>
+</head>
+<body>
+    <h1 id="el">Page Title</h1>
+    <script>
+        // Code Three
+        document.getElementById("el").style.color = "green";
+      // This works because the element is already in the DOM when this script runs.
+    </script>
+  </body>
+</html>

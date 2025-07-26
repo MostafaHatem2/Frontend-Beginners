@@ -79,6 +79,7 @@ body {
 }
 
 
+/* Decorative line under navbar */
 .navbar::before {
     content: "";
     position: relative;
@@ -90,6 +91,7 @@ body {
     z-index: 3;
 }    
 
+/* Underline effect for navigation links */
 .links ul li a::after {
     content: "";
     position: absolute;
@@ -102,34 +104,41 @@ body {
     display: none;
 }
 
+/* Show underline on hover */
 .links ul li a:hover::after {
     display: block;
 
 }
 
+/* Show underline for active link */
 .links ul li a.active::after {
     display: block;
 }
 
+/* Adjust underline position for 'Services' link */
 .links ul li a.two::after {
     left: 90px;
     width: 25%;
 }
 
+/* Adjust underline position for 'Portfolio' link */
 .links ul li a.three::after {
     left: 175px;
     width: 20%;
 }
 
+/* Adjust underline position for 'About' link */
 .links ul li a.four::after {
     left: 242px;
 }
 
+/* Adjust underline position for 'Pricing' link */
 .links ul li a.five::after {
     left: 305px;
     width: 20%;
 }
 
+/* Adjust underline position for 'Contact' link */
 .links ul li a.six::after {
     left: 380px;
     width: 20%;
@@ -157,6 +166,7 @@ span.none {
     display: none;
 }
 
+/* ================= RESPONSIVE DESIGN (max-width: 987px) ================= */
 @media  (max-width: 987px) {
 
     .links {
@@ -179,6 +189,7 @@ span.none {
 
 }
 
+/* ================= RESPONSIVE DESIGN (max-width: 768px) ================= */
 @media (max-width: 768px) {
 
     .links ul {
