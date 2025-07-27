@@ -1,0 +1,2 @@
+
+console.log(Number.MIN_SAFE_INTEGER - (Number.MIN_SAFE_INTEGER * 2)); // 9007199254740991
