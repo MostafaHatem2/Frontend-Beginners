@@ -2,7 +2,7 @@
   "workbench.iconTheme": "vs-minimal",
   "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "left",
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "launch": {
     "configurations": [],
     "compounds": []
