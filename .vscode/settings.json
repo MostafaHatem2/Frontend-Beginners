@@ -1,0 +1,11 @@
+{
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "left",
+  "files.autoSave": "afterDelay",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
