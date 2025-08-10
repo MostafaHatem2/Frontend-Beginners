@@ -23,7 +23,7 @@ Object.defineProperty(myObj, "country", {
   writable: false,
   enumerable: false,
   configurable: false,
-});
+}); // Here Is Not Reomve From Console Becuse This is Not assimple
 
 myObj.score = 500;
 
