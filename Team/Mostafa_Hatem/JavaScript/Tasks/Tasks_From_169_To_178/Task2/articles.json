@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Mostafa",
+    "section": "Comedy",
+    "title": "Laugh Out Loud",
+    "content": "This is the first article's content."
+  },
+  {
+    "id": 2,
+    "name": "Hatem",
+    "section": "Comedy",
+    "title": "Funny Times",
+    "content": "This is the second article's content."
+  },
+  {
+    "id": 3,
+    "name": "Ghonem",
+    "section": "Comedy",
+    "title": "Jokes Unlimited",
+    "content": "This is the third article's content."
+  },
+  {
+    "id": 4,
+    "name": "Abdalziz",
+    "section": "Comedy",
+    "title": "Stand-up Night",
+    "content": "This is the fourth article's content."
+  },
+  {
+    "id": 5,
+    "name": "Ali",
+    "section": "Comedy",
+    "title": "Funny Moments",
+    "content": "This is the fifth article's content."
+  }
+]
